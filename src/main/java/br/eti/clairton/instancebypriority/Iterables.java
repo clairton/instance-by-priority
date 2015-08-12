@@ -15,4 +15,8 @@ public class Iterables {
 		Collections.sort(list, comparator);
 		return list;
 	}
+	
+	public static <T> Iterable<T> sort(final Iterable<T> iterable){
+		return sort(iterable, new br.eti.clairton.instancebypriority.Comparator<T>());
+	}
 }

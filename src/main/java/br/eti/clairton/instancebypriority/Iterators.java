@@ -16,4 +16,8 @@ public class Iterators {
 		Collections.sort(list, comparator);
 		return list.iterator();
 	}
+	
+	public static <T> Iterator<T> sort(final Iterator<T> iterator){
+		return sort(iterator, new br.eti.clairton.instancebypriority.Comparator<T>());
+	}
 }
