@@ -5,13 +5,13 @@ import javax.annotation.Priority;
 public class Comparator<T> implements java.util.Comparator<T> {
 
 	@Override
-	public int compare(T o1, T o2) {
+	public int compare(final T o1, final T o2) {
 		return getPriority(o1).compareTo(getPriority(o2));
 	}
 	
 	
-	private Integer getPriority(T o){
-		Priority priority = o.getClass().getAnnotation(Priority.class);
+	private Integer getPriority(final T o){
+		final Priority priority = o.getClass().getAnnotation(Priority.class);
 		if(priority != null){
 			return priority.value();
 		}else{

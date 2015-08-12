@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.eti.clairton</groupId>
 	<artifactId>iterable-by-priority</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
+	<version>0.1.0</version>
 	<url>https://github.com/clairton/iterable-by-priority</url>
 	<scm>
 		<connection>scm:git:git@github.com:clairton/iterable-by-priority.git</connection>
