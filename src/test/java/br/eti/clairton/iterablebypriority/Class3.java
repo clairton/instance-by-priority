@@ -1,4 +1,4 @@
-package br.eti.clairton.instancebypriority;
+package br.eti.clairton.iterablebypriority;
 
 import javax.annotation.Priority;
 

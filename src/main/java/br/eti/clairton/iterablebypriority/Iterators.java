@@ -1,4 +1,4 @@
-package br.eti.clairton.instancebypriority;
+package br.eti.clairton.iterablebypriority;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -18,6 +18,6 @@ public class Iterators {
 	}
 	
 	public static <T> Iterator<T> sort(final Iterator<T> iterator){
-		return sort(iterator, new br.eti.clairton.instancebypriority.Comparator<T>());
+		return sort(iterator, new br.eti.clairton.iterablebypriority.Comparator<T>());
 	}
 }

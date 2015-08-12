@@ -1,4 +1,4 @@
-# instance-by-priority[![Build Status](https://drone.io/github.com/clairton/instance-by-priority/status.png)](https://drone.io/github.com/clairton/instance-by-priority/latest)
+# instance-by-priority[![Build Status](https://drone.io/github.com/clairton/iterable-by-priority/status.png)](https://drone.io/github.com/clairton/iterable-by-priority/latest)
 
 ```java
 @Priority(1)
@@ -15,8 +15,6 @@ while (iterator.hasNext()) {
 }
 ```
 ```
-Será necessário uma implementação da interface FileService, recomendamos o uso do projeto https://github.com/clairton/exporter.
-
 
 Se usar o maven, será necessário adicionar os repositórios:
 ```xml
@@ -33,7 +31,7 @@ Se usar o maven, será necessário adicionar os repositórios:
 ```xml
 <dependency>
     <groupId>br.eti.clairton</groupId>
-    <artifactId>instance-by-priority</artifactId>
+    <artifactId>iterable-by-priority</artifactId>
     <version>0.1.0-SNAPSHOT</version><!--Ou versão mais recente-->
 </dependency>
 ```

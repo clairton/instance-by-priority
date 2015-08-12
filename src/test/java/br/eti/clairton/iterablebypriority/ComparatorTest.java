@@ -1,4 +1,4 @@
-package br.eti.clairton.instancebypriority;
+package br.eti.clairton.iterablebypriority;
 
 import static org.junit.Assert.assertTrue;
 
@@ -8,6 +8,8 @@ import java.util.Iterator;
 import java.util.List;
 
 import org.junit.Test;
+
+import br.eti.clairton.iterablebypriority.Comparator;
 
 public class ComparatorTest {
 

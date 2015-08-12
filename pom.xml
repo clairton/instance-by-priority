@@ -2,13 +2,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.eti.clairton</groupId>
-	<artifactId>instance-by-priority</artifactId>
+	<artifactId>iterable-by-priority</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
-	<url>https://github.com/clairton/priority-ordenator</url>
+	<url>https://github.com/clairton/iterable-by-priority</url>
 	<scm>
-		<connection>scm:git:git@github.com:clairton/priority-ordenator.git</connection>
-		<url>scm:git:git@github.com:clairton/priority-ordenator.git</url>
-		<developerConnection>scm:git:git@github.com:clairton/priority-ordenator.git</developerConnection>
+		<connection>scm:git:git@github.com:clairton/iterable-by-priority.git</connection>
+		<url>scm:git:git@github.com:clairton/iterable-by-priority.git</url>
+		<developerConnection>scm:git:git@github.com:clairton/iterable-by-priority.git</developerConnection>
 	</scm>
 
 	<dependencies>
