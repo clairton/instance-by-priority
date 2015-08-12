@@ -1,4 +1,4 @@
-# instance-by-priority[![Build Status](https://drone.io/github.com/clairton/iterable-by-priority/status.png)](https://drone.io/github.com/clairton/iterable-by-priority/latest)
+# iterable-by-priority[![Build Status](https://drone.io/github.com/clairton/iterable-by-priority/status.png)](https://drone.io/github.com/clairton/iterable-by-priority/latest)
 
 ```java
 @Priority(1)
