@@ -14,3 +14,26 @@ while (iterator.hasNext()) {
 	System.err.println(name);//print class1 and after class4
 }
 ```
+```
+Será necessário uma implementação da interface FileService, recomendamos o uso do projeto https://github.com/clairton/exporter.
+
+
+Se usar o maven, será necessário adicionar os repositórios:
+```xml
+<repository>
+	<id>mvn-repo-releases</id>
+	<url>https://raw.github.com/clairton/mvn-repo/releases</url>
+</repository>
+<repository>
+	<id>mvn-repo-snapshot</id>
+	<url>https://raw.github.com/clairton/mvn-repo/snapshots</url>
+</repository>
+```
+ Também adicionar as depêndencias:
+```xml
+<dependency>
+    <groupId>br.eti.clairton</groupId>
+    <artifactId>instance-by-priority</artifactId>
+    <version>0.1.0-SNAPSHOT</version><!--Ou versão mais recente-->
+</dependency>
+```

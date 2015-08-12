@@ -36,9 +36,6 @@
 					<encoding>UTF-8</encoding>
 					<source>1.6</source>
 					<target>1.6</target>
-					<compilerArgs>
-						<arg>-parameters</arg>
-					</compilerArgs>
 				</configuration>
 			</plugin>
 			<plugin>
