@@ -14,7 +14,6 @@ while (iterator.hasNext()) {
 	System.err.println(name);//print class1 and after class4
 }
 ```
-```
 
 Se usar o maven, será necessário adicionar os repositórios:
 ```xml
